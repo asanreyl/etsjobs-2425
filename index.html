@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SABOOMHUB</title>
+        <link rel="stylesheet" href="styles.css"> <!-- Enlace a la hoja de estilos externa -->
+    </head>
+    <body>
+        <img id="logo" src="imagenes/coradown.jpg" alt="Logo"> <!-- Cambia la ruta según la ubicación de tu imagen -->
+        <header>
+            <h1>SABOOMHUB</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#reseñas">Reseñas</a></li>
+                    <li><a href="#contacto">Contacto</a></li> <!-- Cambia el href para que apunte a contacto.html -->
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio">
+                <h2>INTRODUCCIÓN</h2>
+                <p>Bienvenidos a la página WEB de Omar, Santi y Borja. Somos estudiantes de grado medio de informática que hemos creado un sitio web en el que hablaremos de la información de nuestro centro de trabajo y comentaremos la práctica que llevaremos a cabo.</p>
+                <p>La informática en las Islas Canarias está en auge, ya que por su ubicación es difícil ponerse en contacto con muchas empresas de fuera. Por eso, algunos trabajadores optan por el teletrabajo, y cómo la inteligencia artificial está creciendo más y más cada vez, la gente prefiere intentar estudiar eso para cuando pueda salir al mercado laboral buscar trabajar por teletrabajo en este tipo de empresas. No se sabe número exacto, solo que se va en tendencia.</p>
+                <p>Igualmente, la informática en Canarias está en auge ya que la revolución tecnológica está siendo inminente. Siempre hace falta gente que sepa, porque cada vez hay más empresas que usan la tecnología y siempre van a haber problemas, de seguridad, de conexión, etc. También existen bastantes conferencias y eventos de las empresas intentando promover que más gente se anime a salir al sector y que la comunidad sea cada vez más grande, ya que siempre se inventan cosas nuevas y parece que todo esto no tiene fin.</p>
+                <p>Además, las Islas Canarias ofrecen un entorno único para el desarrollo tecnológico, con un ecosistema empresarial en constante expansión y un clima propicio para la innovación. Este contexto ha llevado a un aumento en la oferta de programas de formación en informática y tecnología, así como a la celebración de eventos y conferencias que fomentan el intercambio de conocimientos y el networking entre profesionales del sector.</p>
+                <p>En nuestra página, exploraremos temas clave en el campo de la informática, desde las últimas tendencias en desarrollo de software hasta los desafíos emergentes en ciberseguridad. También compartiremos nuestras propias experiencias y proyectos, con el objetivo de inspirar a otros a seguir una carrera en este emocionante y dinámico campo.</p>
+            </section>
+            <section id="reseñas">
+                <h2>RESEÑAS</h2>
+                <p>Aquí encontrarás algunas reseñas de nuestros usuarios:</p>
+                <div class="reseña">
+                    <img src="imagenes/gerardo.png" alt="Foto de perfil de Gerardo Perez Bruno" class="perfil-img">
+                    <div class="info">
+                        <h3>Gerardo Perez Bruno:</h3>
+                        <p>Me la pela, solo quería jugar al solitario.</p>
+                    </div>
+                </div>
+                <div class="reseña">
+                    <img src="imagenes/yeremay.png" alt="Foto de perfil de Yeremay Santana Herrera" class="perfil-img">
+                    <div class="info">
+                        <h3>Yeremay Santana Herrera:</h3>
+                        <p>Queme una fuente de alimentación, para arreglarla hay que secarla con los nudillos?.</p>
+                    </div>
+                </div>
+                <div class="reseña">
+                    <img src="imagenes/santiago.png" alt="Foto de perfil de Santiago Galván Sánchez" class="perfil-img">
+                    <div class="info">
+                        <h3>Santiago Galván Sánchez:</h3>
+                        <p>Yo no toque la pantalla.</p>
+                    </div>
+                </div>
+                <div class="reseña">
+                    <img src="imagenes/raul.png" alt="Foto de perfil de Raúl Marrero Estupiñán" class="perfil-img">
+                    <div class="info">
+                        <h3>Raúl Marrero Estupiñán:</h3>
+                        <p>Papitas.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p>Si deseas ponerte en contacto con nosotros, por favor completa el siguiente formulario:</p>
+                <form action="enviar.php" method="post">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 SABOOMHUB. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+    </html>
+    
