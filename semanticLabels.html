@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Etiquetas Semánticas Modernas</title>
+    <style>
+        /* Estilos básicos */
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #4CAF50; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #002244; color: white; padding: 10px; text-align: center; }
+        .menu-item { color: #FFD700; margin: 0 10px; text-decoration: none; font-weight: bold; }
+
+        /* Contenedor principal para contenido y aside */
+        .contenedor {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        /* Estilos para el contenido principal */
+        main {
+            background-color: #e76f51;
+            color: white;
+            padding: 20px;
+            flex-grow: 1;
+            margin-right: 10px; /* Espaciado entre contenido y aside */
+        }
+
+        /* Estilos para aside */
+        aside {
+            background-color: #264653;
+            color: white;
+            padding: 20px;
+            width: 400px; /* Ancho fijo */
+        }
+
+        footer {
+            background-color: #2a9d8f;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título de la Página</h1>
+    </header>
+
+    <nav>
+        <a href="#" class="menu-item">Inicio</a> |
+        <a href="#" class="menu-item">Servicios</a> |
+        <a href="#" class="menu-item">Contacto</a>
+    </nav>
+
+    <!-- Contenedor principal que agrupa el contenido principal y el aside -->
+    <div class="contenedor">
+        <!-- Contenido principal -->
+        <main>
+            <section>
+                <h2>Contenido Principal</h2>
+                <p>Este es el contenido principal de la página, organizado usando etiquetas semánticas modernas.</p>
+                <p>Se utiliza la estructura con etiquetas `header`, `nav`, `main`, `section`, `aside` y `footer` para mejorar la accesibilidad y SEO.</p>
+            </section>
+        </main>
+
+        <!-- Aside con información adicional -->
+        <aside>
+            <h2>Información Adicional</h2>
+            <p>Este es el contenido adicional que se encuentra en el aside.</p>
+            <ul>
+                <li><a href="#" style="color: #FFD700;">Enlace 1</a></li>
+                <li><a href="#" style="color: #FFD700;">Enlace 2</a></li>
+                <li><a href="#" style="color: #FFD700;">Enlace 3</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web</p>
+    </footer>
+</body>
+</html>
